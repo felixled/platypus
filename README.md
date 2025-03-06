@@ -4,7 +4,7 @@ This repository provides MATLAB files used to obtain the numerical results of th
 
 ### Code dependencies
 - Toby Cubitt's MATLAB package *quantinf*, available at https://www.dr-qubit.org/matlab.html.
-- MATLAB's *particleswarm* function, packaged in the "Global Optimization Toolbox" (this can be replaced by other optimization routines such as *fminunc*, see the file [optimize_private_information](optimization/optimize_private_information.m)).
+- MATLAB's *particleswarm* function, packaged in the "Global Optimization Toolbox" (this can be replaced by other optimization routines such as *fminunc*, see the file [optimize_private_information](optimize_private_information.m) for how to specify an optimizing routine).
 
 ### Getting started
 (to be added)
