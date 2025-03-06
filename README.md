@@ -29,7 +29,7 @@ All channels take an additional argument `mode` with possible values `choi`, `kr
 - [vs_channel.m](vs_channel.m): Qutrit platypus channel
 
 #### Optimization routines
-- [optimize_private_information.m](optimization_private_information.m): Optimize the private information of a channel. If the purifying dimension `r = dim(4)` of the argument `dim` is equal to 1, this optimizes over pure-state ensembles, and thus optimizes the coherent information.
+- [optimize_private_information.m](optimize_private_information.m): Optimize the private information of a channel. If the purifying dimension `r = dim(4)` of the argument `dim` is equal to 1, this optimizes over pure-state ensembles, and thus optimizes the coherent information.
 - [vs_coherent_information.m](vs_coherent_information.m): Computes the single-letter coherent information of the qutrit platypus channel.
 
 #### Auxiliary functions
