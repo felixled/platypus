@@ -5,9 +5,7 @@ end
 
 phi = [1;0;0;1];
 Phi = phi*phi';
-X = [0,1;1,0];
-Y = [0,-1i; 1i,0];
-Z = [1,0;0,-1];
+[X,Y,Z] = paulis;
 I = eye(2);
 K= {sqrt(1-p)*eye(2),sqrt(p/3)*X,sqrt(p/3)*Y,sqrt(p/3)*Z};
 
